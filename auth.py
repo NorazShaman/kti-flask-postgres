@@ -1,4 +1,3 @@
-from flask import Blueprint, render_template, redirect, url_for
 from models import Users, LoginForm, RegisterForm
 from app import db, bcrypt
 from flask_login import login_user, login_required, logout_user
